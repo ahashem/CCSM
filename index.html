@@ -97,9 +97,9 @@
     <section id="contact">
       <form action="/" method="post">
         <h3>Get in touch!</h3>
-        <div class="form_input"><label for="first-name">First Name  </label><input id="first-name" type="text" placeholder="First name" /></div>
-        <div class="form_input"><label for="last-name">Last Name  </label><input id="last-name" type="text" placeholder="Last name"/></div>
-        <div class="form_input"><label for="email">Email address  </label><input id="email" type="text" placeholder="Email" /></div>
+        <div class="form_input"><label for="first-name">First Name  </label><input id="first-name" type="text" name="fname" placeholder="First name" /></div>
+        <div class="form_input"><label for="last-name">Last Name  </label><input id="last-name" type="text" name="lname" placeholder="Last name"/></div>
+        <div class="form_input"><label for="email">Email address  </label><input id="email" type="text" name="email" placeholder="Email" /></div>
         <div class="form_input"><label for="message">Message  </label> <textarea id="message" placeholder="Type your message here" rows="8" cols="45"></textarea> <br>
         <button type="button">Submit  </button>
     </form>
@@ -107,7 +107,11 @@
     <footer>
       <p>Copyright &copy; 2018 CCSM All rights reserved.</p>
     </footer>
-
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
